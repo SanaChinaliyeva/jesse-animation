@@ -32,6 +32,6 @@ int y = 0;
     color c = img.get(x,y);
     fill(c);
     noStroke();
-    int w = (int)random(30);
+    int w = (int)random(50);
     ellipse(x,y,w,w);
   }
