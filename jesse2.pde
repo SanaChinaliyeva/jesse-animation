@@ -9,8 +9,8 @@ void setup()
 }
 
 
-  int dx=15;
-int dy=19;
+  int dx=50;
+int dy=54;
 int x = 0;
 int y = 0; 
         void draw()
