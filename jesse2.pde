@@ -9,8 +9,8 @@ void setup()
 }
 
 
-  int dx=10;
-int dy=14;
+  int dx=15;
+int dy=19;
 int x = 0;
 int y = 0; 
         void draw()
@@ -32,6 +32,6 @@ int y = 0;
     color c = img.get(x,y);
     fill(c);
     noStroke();
-    int w = (int)random(50);
+    int w = (int)random(30);
     ellipse(x,y,w,w);
   }
